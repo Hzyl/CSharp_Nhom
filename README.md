@@ -2,7 +2,7 @@
 
 - Thành Viên 
     + Nguyễn Quốc Huy - 3123411120
-    + Nguyễn Xuân Anh - 
+    + Nguyễn Xuân Anh - 3123411018
 
 + Đánh giá môn học:
    * Thi cuối kỳ: 50% (thi tự luận)
