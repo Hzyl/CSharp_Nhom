@@ -4,7 +4,6 @@ namespace NMLT.Buoi10
     {
         public static void Main()
         {
-            // Nhap day so
             Console.Write("Moi ban nhap so luong phan tu: ");
             int n = int.Parse(Console.ReadLine()!);
 
@@ -19,8 +18,7 @@ namespace NMLT.Buoi10
             for (int i = 0; i < n; i++)
                 Console.Write(" " + a[i]);
             Console.WriteLine();
-
-            // Tim doan duong dai nhat
+            
             int iKQ = -1, jKQ = -1;
             int idx = 0;
             while (idx < n)
@@ -29,8 +27,7 @@ namespace NMLT.Buoi10
                 {
                     int j = idx;
                     while (j < n && a[j] > 0)
-                        j++;
-                    // doan duong la [idx, j-1]
+                        j++
                     if ((j - 1 - idx) > (jKQ - iKQ))
                     {
                         iKQ = idx;
